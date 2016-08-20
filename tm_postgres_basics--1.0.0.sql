@@ -1,3 +1,5 @@
+\echo Use "CREATE EXTENSION tm_postgres_basics" to load this file. \quit
+
 -- converts table name to oid.
 CREATE OR REPLACE FUNCTION tm_name_to_oid(
     input_name NAME
