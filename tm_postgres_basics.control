@@ -1,0 +1,5 @@
+# tm_postgres_basics extension
+comment = 'basic functions'
+default_version = '1.0.0'
+relocatable = true
+encoding = 'UTF-8'
