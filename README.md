@@ -17,7 +17,9 @@ In psql:
 CREATE EXTENSION tm_postgres_basics;
 ```
 
-## tm_name_to_oid
+## Usage
+
+### tm_name_to_oid
 
 Args
 
@@ -36,7 +38,7 @@ SELECT * FROM tm_name_to_oid('table_name')
 (1 row)
 ```
 
-## tm_is_inherit_from
+### tm_is_inherit_from
 
 Args
 
@@ -67,7 +69,7 @@ SELECT * FROM tm_is_inherit_from(tm_name_to_oid('grandchild'), tm_name_to_oid('p
 (1 row)
 ```
 
-## tm_find_tables_inherit_from
+### tm_find_tables_inherit_from
 
 Args
 
